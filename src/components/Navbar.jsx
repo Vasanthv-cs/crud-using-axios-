@@ -6,7 +6,8 @@ const Navbar = () => {
             logo
         </div>
         <div id="con2">
-        <Link to={"/add"}></Link>
+        <Link to={"/addData"}>Add</Link>
+        <Link to={'/viewData'}>View</Link>
         </div>
     </div>
   )

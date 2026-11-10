@@ -1,8 +1,11 @@
-import React from 'react'
+
+import Navbar from "../components/Navbar"
 
 const Viewdata = () => {
   return (
-    <div>Viewdata</div>
+    <div>
+        <Navbar/>
+    </div>
   )
 }
 
