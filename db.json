@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "name": "raja",
+      "email": "raja@gmail.com",
+      "number": "1234567809",
+      "course": "ece",
+      "id": "N04X1pNFFUw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
