@@ -19,10 +19,14 @@ course:""
   Setdata({...data,[e.target.name]:e.target.value})
  }
 
- let handlesubmit=(e)=>{
+ let handlesubmit=async(e)=>{
   e.preventDefault();
-   axios.post("http://localhost:4000/users",data)
-  console.log(data);
+  try{
+  await axios.post("http://localhost:4000/users",data)
+   alert("data saved");
+  } catch(err){
+    alert(err);
+  }
  }
   return (
     <div>
